@@ -24,5 +24,6 @@ return {
 
 		vim.keymap.set("n", "<Leader>db", dap.toggle_breakpoint, {})
 		vim.keymap.set("n", "<Leader>dc", dap.continue, {})
+    vim.keymap.set("n", "<Leader>dx", dapui.close, {})
 	end,
 }
